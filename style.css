@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+.container {
+  width: 1200px;
+  margin: 100px auto;
+  font-family: sans-serif;
+}
+.box {
+  padding: 100px 350px 0 350px;
+}
+img {
+  position: absolute;
+  z-index: -1;
+}
+.login_title {
+  margin: 72px 0px 0px 539px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #000000;
+}
+.login_input {
+  width: 360px;
+  height: 61px;
+  display: block;
+  margin: 45px auto 33px;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.login_checkbox {
+  display: flex;
+  margin: 141px 420px 0;
+  gap: 13px;
+}
+.login_cta {
+  width: 360px;
+  height: 61px;
+  margin: 27px 421px 0;
+  background-color: #4c4cbe;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 25px;
+}
+.login_box h3 {
+  margin: 27px 497px 0;
+}
+.login_box p {
+  margin: 19px 580px 0;
+  border: 3px solid white;
+  border-radius: 26%;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
+.facebook_img {
+  margin: 28px 540px 0;
+  border-radius: 2px solid rgb(36, 25, 25);
+}
+.linkedin_img {
+  margin: 28px 650px 0;
+  border-radius: 2px solid;
+  border: 50%;
+}
